@@ -243,7 +243,7 @@
         <div class="textos">
             <h1 class="titulo">Vitor Oliveira</h1>
             <h3 class="subtitulo">Astrologia & Tarot</h3>
-            <a href="#" class="boton">Contato</a>
+            <a href="https://wa.me/5524992717594?text=Olá+Gostaria+De+Saber+Mais+Sobre+As+Consultas+Online" class="boton">Contato</a>
         </div>
         <div class="sesgoabajo"></div>
     </header>
