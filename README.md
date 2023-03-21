@@ -138,15 +138,6 @@
             margin: auto;
         }
         
-        .fondo {
-            height: 900px;
-            position: relative;
-            background-image: url(fondo.png);
-            overflow: hidden;
-            background-attachment: fixed;
-            background-position: center;
-            padding-top: 130px;
-        }
         
         .sesgoabajo-unico {
             z-index: 10;
@@ -167,7 +158,35 @@
             margin: auto;
         }
         
-        
+        footer {
+
+          position: relative;
+          bottom: 0;
+          left: 0;
+          right: 0;
+          background: #111;
+          height: auto;
+          width: 100vw;
+          font-family: "times";
+          padding-top: 10px;
+          color: #fff;
+        }
+        .footer-content {
+          display: flex;
+          align-items: center;
+          justify-content: center;
+          flex-direction: column;
+          text-align: center;
+          
+        }
+
+        .footer-content p{
+          text-align: center;
+          max-width: 500px;
+          margin: 10px auto;
+          line-height: 28px;
+          font-size: 14px;
+        }
         @media screen and (max-width:610px) {
             header .textos {
                 margin-top: 140px;
@@ -234,8 +253,7 @@
             .subtitulo-patrocinadores {
                 font-size: 20px;
             }
-        }  
-        
+        } 
     </style>
 </head>
 <body>
@@ -243,7 +261,7 @@
         <div class="textos">
             <h1 class="titulo">Vitor Oliveira</h1>
             <h3 class="subtitulo">Astrologia & Tarot</h3>
-            <a href="https://wa.me/5524992717594?text=Olá+Gostaria+De+Saber+Mais+Sobre+As+Consultas+Online" class="boton">Contato</a>
+            <a href="#" class="boton">Contato</a>
         </div>
         <div class="sesgoabajo"></div>
     </header>
@@ -255,7 +273,7 @@
                 <p class="parrafo">Estudando e praticando tarot a mais de um ano  venho me empenhando em ajudar as pessoas com este oráculo, não uso nenhuma religião neste trabalho como muitos fazem pra dar um ar a mais de misticismo por que as coisas são mais práticas do que parecem, conselhos amorosos, decisões difíceis de serem tomadas, saio desse emprego? será que a pessoa com quem estou me relacionando realmente gosta de min? isso entre muitas outras coisas o tarot responde,<strong> frisando aqui que o livre arbítrio é de cada um e cabe a você escolher oque fazer independente do que as cartas dizem.</strong></p>
                 <br>
                 <h3 class="slogan">Astrologia</h3>
-               
+                
                 <p class="parrafo">O Mapa Astral de revolução solar é com o qual trabalho que costuma levar em média uma semana para ser analisado completamente, o mapa da revolução indica as coisas que iram acontecer no seu próximo ano pessoal que começa na seu aniversário e vai até o próximo no ano seguinte, para este serviço é necessário <b>data de nascimento, hora de nascimento ( Exata ) e cidade de nascimento.</b></p>
                 <br>
                   <h3 class="slogan">Preços</h3>
@@ -263,5 +281,10 @@
             </div>
         </section>
     </main>
+    <footer>
+        <div class="footer-content">
+        <p>© Vitor Oliveira 2023 | Github Pages</p>
+        </div>
+      </footer>
 </body>
 </html>
